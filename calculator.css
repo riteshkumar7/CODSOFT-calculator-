@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+body{
+background-color: #B784B7;
+}
+.calculator-box{
+        width: 450px;
+        height: 500px;
+        border: 2px solid cornsilk;
+        border-radius: 12px;
+        margin: 50px 0 40px 500px;
+        position: relative;
+        top: 100px;
+        left: 200px;
+        transform: translate(-50%, -20%);
+        background-color: rgba(255,255,255,0.2);
+        backdrop-filter: blur(15px);
+        box-shadow: 0 0 6px cornsilk;  
+        background: linear-gradient(to right,cornsilk,#AC87C5);
+}
+.heading {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;
+}
+.think{
+    width: 60px;
+    height: 60px;
+}
+.input-box{
+    width: 400px;
+    height: 60px;
+    border: 0;
+    outline: none;
+    font-size: 45px;
+    border-radius: 10px;
+    margin: 0 0 0 20px;
+    text-align: right;
+}
+.button,.button-operator{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin: 10px 2px 0 20px;
+    border: 0;
+    outline: none;
+    font-size: 25px;
+    font-family: "Madimi One", sans-serif;   
+    background-color: #451952;
+    color: cornsilk;
+}
+.button-equal{
+    width: 65px;
+    height: 280px;
+    border: 0;
+    border-radius: 10px;
+    outline: none;
+    font-size: 35px;
+    font-family: "Madimi One", sans-serif;   
+    background-color: #451952;
+    color: cornsilk;
+    position: relative;
+    top: -226px;
+    left: 400px;
+    transform: translate(-50%, -20%);
+    box-shadow: 0 0 6px black;
+}
